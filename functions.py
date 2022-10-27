@@ -1,28 +1,28 @@
 # def welcome(name):
 #   print("Welcome " + name)
 
+
 def add_numbers(num1, num2):
   print(num1, num2)
-  return num1 + num2 #Return stops the function; any code under it will NOT run
+  return num1 + num2  #Return stops the function; any code under it will NOT run
+
 
 def num_dividedFrom_add_numbers(num, addedNum):
   return num / addedNum
-  
 
 
 # def function():
 #   pass
 #   Create Functions Practice #1
-  # Declare a function called greet, which every time it is called prints "Hello world!"
-  
-  # You should only define the function, you should not call it later.
+# Declare a function called greet, which every time it is called prints "Hello world!"
+
+
+# You should only define the function, you should not call it later.
 def greet():
   print("Hello world!")
 
+
 greet()
-
-
-
 
 ########################################################################################################################
 # Create Functions Practice #2
@@ -32,9 +32,9 @@ greet()
 
 # You should only define the function and create the variable, you should not call the function afterwards.
 
+
 def welcome(name):
   print("Welcome " + name)
-
 
 
 ########################################################################################################################
@@ -45,6 +45,6 @@ def welcome(name):
 
 # You should only define the function and create the variable, you should not call the function afterwards.
 
-def square(num):
-  return num**2
 
+def square(num):
+  return num **2
