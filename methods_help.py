@@ -59,3 +59,4 @@ tv_brands = {"Sony", "Philips", "Samsung", "LG"}
 # Search the documentation for the requested method to know how it works.
 
 print(phone_brands.isdisjoint(tv_brands))
+#if the lists have a element in common; the thhing prints out "False"

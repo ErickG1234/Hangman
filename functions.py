@@ -1,3 +1,15 @@
+def welcome(name):
+  print("Welcome " + name)
+
+def add_numbers(num1, num2):
+  print(num1, num2)
+  return num1 + num2 #Return stops the function; any code under it will NOT run
+
+def num_dividedFrom_add_numbers(num, addedNum):
+  return num / addedNum
+  
+
+
 def function():
   pass
 #   Create Functions Practice #1
